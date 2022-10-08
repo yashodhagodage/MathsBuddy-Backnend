@@ -9,6 +9,7 @@ const favoriteRouter = require('./routes/favorite-rotes');
 const materialRouter = require('./routes/material-route');
 const adminRouter = require('./routes/admin-routes');
 const categoryRouter = require('./routes/category-routes');
+const employeeRouter = require('./routes/employee-routes');
 //const authRoute = require('./routes/auth');
 
 
@@ -50,6 +51,9 @@ app.use('/admin',adminRouter)
 
 //routes are defined in the -> routes/category-routes.js
 app.use('/category',categoryRouter)
+
+//routes are defined in the -> routes/employee-routes.js
+app.use('/employee',employeeRouter)
 
 //auth routes are defined in the -> routes/auth.js
 //app.use('/api/user',authRoute)
