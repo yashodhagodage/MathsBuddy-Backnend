@@ -24,7 +24,7 @@ const employeeSchema = new Schema({
         type: String,
         required: true,
         max: 1024,
-        min: 6
+        min: 8
     },
     date:{
         type: Date,
